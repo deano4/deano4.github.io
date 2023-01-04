@@ -22,3 +22,15 @@ a {
 #platform {
     height: 100px;
 }
+
+.List_Title {
+    color: aqua;
+}
+
+.container_list {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: beige;
+}
