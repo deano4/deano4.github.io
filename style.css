@@ -1,0 +1,24 @@
+h1 {
+    font-size: 5em;
+}
+
+img {
+    height: 50px
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    background-color: rgb(168, 130, 130);
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+#platform {
+    height: 100px;
+}
