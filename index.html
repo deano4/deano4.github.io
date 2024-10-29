@@ -1,49 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+WRITTEN BY: Dean Nguyen
+EMAIL: deanpn@uci.edu
+-->
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Dean Nguyen">
+    <meta name="description" content="Personal website to display relevant software engineering experience, education, projects, and some information about myself.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/style.css"> 
+    
     <title>My Personal Website</title>
 </head>
-<body>
-    <!-- Placeholder for the Navbar -->
+<body style="background-color: #D8D2CB;">
     <div id="navbar-placeholder"></div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-12 col-lg-6" style="border: 2px solid black; padding: 2em;" >
 
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to My Personal Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <main class="container my-5">
+            <section class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img class="rounded-circle img-fluid mb-3" alt="Dean sitting on snow" src="images/me_sledding.jpg" style="width: 200px; height: 200px; object-fit: cover;">
+                </div>
+                <div class="col-md-8">
+                    <h1>Hey, I'm Dean</h1>
+                    <p style="font-size: 1.2em;" class="text-justify card-text">
+                        I'm an aspiring software engineer currently studying computer science
+                        at the University of California! On this site you can check out my experience
+                        <a href="/projects.html">projects</a>, or learn more about <a href="/Gallery.html">me</a> . 
+                    </p>
+                </div>
+            </section>
 
-    <!-- Main Section -->
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This is where you'll add a brief description about yourself.</p>
-        </section>
+            <section class="my-5">
+                <h2>Education</h2>
+                <div class="card mb-4" style="background-color: #D8D2CB">
+                    <div class="card-body">
+                        <h5 class="card-title">University of California, Irvine</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">B.S. in Computer Science | Irvine, CA | Expected Graduation: June 2026</h6>
+                        <ul>
+                            <li><strong>GPA:</strong> 4.0</li>
+                            <li><strong>Honors:</strong> Regents' Scholarship, Rose Hill Scholarship, PBK Fall Award</li>
+                            <li><strong>Relevant Courses:</strong> Intro to Software Engineering, Intro to Data Management, AI in BIO and MED, Data Structures and Algorithms, Machine Learning and Data Mining, Computer Networks</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Showcase your projects here.</p>
-        </section>
+            <section id="experience" class="my-5">
+                <h2>Experience</h2>
+                <div class="card mb-4" style="background-color: #D8D2CB">
+                    <div class="card-body">
+                        <h5 class="card-title">Molloi Lab Imaging Physics</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Researcher | Irvine, CA | April 2024 - Present</h6>
+                        <ul>
+                            <li>Developed a deep learning algorithm for heart chamber segmentation, achieving <strong>89% accuracy</strong> by implementing residual blocks in the encoder U-Net with attention modules in <strong>PyTorch</strong>.</li>
+                            <li>Contributed to multiple papers and created documentation for designing the <strong>nnUNet training protocol</strong> for lab reference.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body" style="background-color: #D8D2CB">
+                        <h5 class="card-title">University of California, Irvine</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Lab Tutor for Intermediate Programming Course | Irvine, CA | Sep 2023 - Jan 2024</h6>
+                        <ul>
+                            <li>Instructed students in core programming concepts, receiving high ratings for effective communication and teaching methods.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body" style="background-color: #D8D2CB">
+                        <h5 class="card-title">Video Game Designing Club</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Programmer | Irvine, CA | Sep 2022 - March 2023</h6>
+                        <ul>
+                            <li>Modeled player movement and terrain features for the game <strong>Dreaded Dark</strong> in <strong>Unity</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Provide contact information or a form here.</p>
-        </section>
-    </main>
+            <section id="skills" class="my-5">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Programming Languages:</strong> Python, C/C++, SQL</li>
+                    <li><strong>Frameworks & Tools:</strong> PyTorch, Git, VS Code</li>
+                </ul>
+            </section>
+            
+            <section id="contact" class="my-5">
+                <div class="container my-4">
+                    <h5 style="justify-self: center;">Connect with Me</h5>
+                    <div class="social-icons d-flex justify-content-center">
+                        <a href="https://github.com/deano4" target="_blank">
+                            <img src="images/github_icon.png" alt="GitHub" class="social-icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/deanpn" target="_blank">
+                            <img src="images/linkedin_icon.png" alt="LinkedIn" class="social-icon">
+                        </a>
+                        <a href="mailto:dnp2k4@gmail.com">
+                            <img src="images/email_icon.png" alt="Email" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        </div>
+        <div class="col"></div>
+    </div>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 My Personal Website</p>
-    </footer>
-    <script src="scripts/insertNavAndFooter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <script src="scripts/insertNav.js"></script>
 </body>
 </html>

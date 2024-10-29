@@ -1,36 +1,20 @@
-h1 {
-    font-size: 5em;
+
+.social-icon {
+    width: 30px; 
+    height: 30px;
+    margin: 0 10px; 
+    transition: transform 0.2s;
 }
 
-img {
-    height: 50px
+.social-icon:hover {
+    transform: scale(1.2); 
 }
 
-body {
-    background-color: antiquewhite;
+#gallery {
+    max-width: 600px;
+    margin: auto;
 }
-
-div {
-    background-color: rgb(168, 130, 130);
-}
-
-a {
-    color: brown;
-    text-decoration: none;
-}
-
-#platform {
-    height: 100px;
-}
-
-.List_Title {
-    color: aqua;
-}
-
-.container_list {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    background-color: beige;
+.carousel-item img {
+    height: 600px; 
+    object-fit: contain;
 }
