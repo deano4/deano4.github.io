@@ -1,7 +1,7 @@
 // Function to load the navbar and footer content
 function loadNav() {
     // Fetch and insert the navbar HTML
-    fetch("components/navbar.html")
+    fetch("./components/navbar.html")
       .then(response => response.text())
       .then(html => {
         document.getElementById("navbar-placeholder").innerHTML = html;
